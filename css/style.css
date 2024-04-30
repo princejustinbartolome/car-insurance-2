@@ -1,0 +1,620 @@
+/* Header CSS */
+header .headerAreaBlock .headerContent01 img {
+    width: 250px;
+}
+header .headerAreaBlock .headerContent02 button {
+    text-align: right;
+}
+.headerAreaBlock {
+    top: 0;
+    left: 50%;
+    width: 100%;
+    display: flex;
+    z-index: 99999999;
+    padding: 20px;
+    margin: 0 auto;
+    position: fixed;
+    max-width: 1320px;
+    background: #fff;
+    transform: translateX(-50%);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.headerAreaBlock .headerContent01,
+.headerAreaBlock .headerContent02 {
+    align-content: center;
+}
+/* Banner Area CSS */
+.BannerArea {
+    padding: 150px 0 50px 0;
+}
+.BannerArea .mainVisualBlock02 {
+    text-align: center;
+}
+.BannerArea .mainVisualBlock02 img {
+    width: 50%;
+    margin: 0 auto;
+}
+.BannerArea h1 {
+    font-size: 46px;
+    font-weight: 900;
+    color: #13274d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.BannerArea p {
+    color: #222;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+}
+.formZipCode {
+    width: 100%;
+    margin: 0 auto 50px auto;
+    max-width: 450px;
+    position: relative;
+}
+.formZipCode > svg {
+    width: 70px;
+    position: absolute;
+    right: 26%;
+}
+.inputContainer {
+    margin-bottom: 10px;
+}
+.formZipCodeTtl {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    max-width: 245px;
+    margin-left: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 15px;
+    background: #3161ff;
+}
+.formZipCode button svg {
+    width: 23px;
+    margin-left: 5px;
+}
+.disclaimerWithIcon {
+    text-align: center;
+}
+.disclaimerWithIcon .disclaimerText {
+    color: #13274d;
+    vertical-align: middle;
+}
+.disclaimerIcon {
+    margin-right: 5px;
+}
+.disclaimerIcon svg {
+    color: #13274d;
+}
+.formZipCode input {
+    width: 100%;
+    font-size: 20px;
+    color: #13274d;
+    border-right: none;
+    padding: 15px 30px;
+    border: 2px solid #3161ff;
+    border-radius: 50px !important;
+    
+}
+.formZipCode input:focus {
+    box-shadow: none;
+    border-right: none;
+    border: 2px solid #3161ff;
+}
+.btnQuote {
+    padding: 10px 30px;
+    background: #3161ff;
+    border: 1px solid #3161ff;
+    border-radius: 50px !important;
+}
+.btnQuote:hover {
+    opacity: 0.9;
+    background: #3161ff;
+    transition: 0.3 all ease;
+    border: 1px solid #3161ff;
+}
+.formZipCode input:active {
+    box-shadow: none;
+    border-right: none;
+    border: 2px solid #3161ff;
+}
+.formZipCode input::placeholder {
+    color: #ccc;
+}
+.formZipCode input {
+    color: #3161ff;
+}
+.formZipCode button {
+    top: 5px;
+    right: 6px;
+    height: 54px;
+    border: none;
+    color: #fff;
+    line-height: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    margin-left: -86px;
+    background: #3161ff;
+    z-index: 99999 !important;
+    position: absolute !important;
+    border-radius: 50px !important;
+}
+.formZipCode button:hover {
+    opacity: 0.9;
+    background: #3161ff;
+    transition: 0.3s all ease;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}
+input[type=number] {
+      -moz-appearance: textfield;
+}
+
+.callToActionAreaBlock .formZipCode {
+    width: 40%;
+    margin: 0 auto;
+
+}
+.quoteWalletUl {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.quoteWalletUl li:hover {
+    cursor: pointer;
+    transition: 0.5s all ease;
+    border: 2px solid #13274d;
+    background-color: #13274d;
+}
+.quoteWalletUl li:hover span,
+.quoteWalletUl li:hover svg {
+    color: #fff;
+    transition: 0.3s all ease;
+}
+.quoteWalletUl li a {
+    text-align: center;
+    text-decoration: none;
+}
+.quoteWalletUl li a svg {
+    width: 30px;
+    color: #13274d;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.quoteWalletUl li a span {
+    color: #13274d;
+    font-family: 'Poppins';
+}
+.quoteWalletUl li {
+    float: left;
+    padding: 15px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #13274d;
+}
+.credibilityArea {
+    padding: 50px 0;
+    background: #eff9ff;
+}
+.credibilityArea p {
+    font-size: 28px;
+    font-weight: 900;
+    color: #13274d;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.credibilityArea img {
+    width: 170px;
+}
+.adsArea {
+    padding: 100px 0;
+}
+.adsAreaBlock img {
+    width: 90%;
+}
+.adsAreaBlock01 {
+    margin-bottom: 30px;
+    align-content: center;
+}
+.adsAreaBlock01 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #13274d;
+    margin-bottom: 30px;
+}
+.adsAreaBlock01 p {
+    color: #222;
+    font-family: 'poppins';
+}
+.adsAreaBlock01 .btn {
+    margin-top: 30px;
+}
+.gettingStartedArea {
+    padding: 100px 0;
+    background-color: #eff9ff;
+}
+.gettingStartedTtl {
+    font-size: 36px;
+    font-weight: 900;
+    color: #13274d;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+.stepsBlock {
+    display: flex;
+    padding: 30px 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(25, 53, 96, 0.06) 0px 5px 50px 5px;
+}
+.stepsBlock span {
+    z-index: 10;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    margin-right: 15px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.stepsBlock > div {
+    align-content: center;
+}
+.stepsBlock > div p:first-child {
+    font-size: 20px;
+    color: #13274d;
+    margin-bottom: 0;
+    font-family: 'Poppins';
+}
+.stepsBlock > div p:last-child {
+    font-size: 22px;
+    margin-bottom: 0;
+    color: #13274d;
+    font-weight: bold;
+}
+.callToActionArea {
+    padding: 100px 0;
+}
+.callToActionAreaBlock01 {
+    text-align: center;
+}
+.callToActionAreaBlock {
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #eff9ff;
+}
+.callToActionAreaBlockTtl {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #13274d;
+}
+.callToActionAreaBlockDesc {
+    color: #222;
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+}
+.callToActionAreaBlock .quoteWalletUl {
+    width: 42%;
+    margin: 0 auto;
+    text-align: center;
+}
+.adsAreaBlock {
+    align-content: center;
+}
+
+footer {
+    color: #222;
+    padding: 50px 0;
+}
+footer div.row > div.col {
+    align-content: center;
+}
+footer .footerBlock01 img {
+    width: 250px;
+}
+footer div.row > div.col:nth-child(2) {
+    text-align: center;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    width: 74%;
+    margin: 0 auto;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+footer ul li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+footer ul li:last-child {
+    margin-right: 0;
+}
+footer ul li a {
+    color: #222;
+    text-decoration: none;
+}
+.footerBlock01,
+.footerBlock02,
+.footerBlock03 {
+    align-content: center;
+}
+.spOn {
+    display: none;
+}
+.pcOn {
+    display: block;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 1024px) {
+    .bannerArea h1 {
+        font-size: 33px;
+        line-height: 1.2;
+    }
+    .bannerArea p {
+        font-size: 16px;
+    }
+    .formZipCode input {
+        font-size: 16px;
+        padding: 18px 20px;
+        margin-right: 0 !important;
+    }
+    .formZipCode button {
+        padding: 15px 20px;
+        font-size: 16px;
+        right: 6px;
+    }
+    .formZipCodeTtl {
+        font-size: 16px;
+        max-width: 200px;
+        margin-bottom: 10px; 
+    }
+    .formZipCode > svg {
+        width: 60px;
+        right: 31%;
+    }
+    .adsArea {
+        padding: 70px 0;
+    }
+    .adsAreaBlock01 {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .adsAreaBlock01 h2 {
+        font-size: 30px;
+    }
+    .adsArea img {
+        padding-right: 30px;
+    }
+    .gettingStartedTtl {
+        font-size: 30px;
+    }
+    .stepsBlock {
+        display: block;
+        text-align: center;
+    }
+    .gettingStartedArea {
+        padding: 70px 0;
+    }
+    .stepsBlock span {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto 20px auto;
+    }
+    .stepsBlock > div p:first-child,
+    .stepsBlock > div p:last-child {
+        font-size: 16px;
+    }
+    .adsArea img {
+        padding: 0;
+        width: 100%;
+    }
+    .callToActionAreaBlockTtl {
+        font-size: 40px;
+    }
+    .callToActionAreaBlockDesc {
+        font-size: 18px;
+    }
+    .formZipCode,
+    .callToActionAreaBlock .formZipCode {
+        width: 100%;
+        max-width: 400px;
+    }
+    .credibilityArea p {
+        font-size: 22px;
+    }
+    .callToActionAreaBlockDesc {
+        font-size: 16px;
+    }
+    .callToActionAreaBlockTtl {
+        font-size: 33px;
+    }
+    .callToActionAreaBlock01 img {
+        width: 70%;
+    }
+    .stepsBlock {
+        margin-bottom: 20px;
+    }
+    .adsAreaBlock {
+        align-content: center;
+        width: 100%;
+    }
+    .footerBlock01 {
+        margin-bottom: 30px;
+    }
+    .footerBlock01,
+    .footerBlock02,
+    .footerBlock03 {
+        width: 100%;
+        text-align: center !important;
+    }
+    footer {
+        padding: 50px 10px;
+    }
+    footer ul {
+        width: 100%;
+        max-width: 305px;
+        margin-bottom: 20px;
+    }
+    .btnQuote {
+        padding: 10px 20px;
+    }
+    header > div > div > div > img {
+        width: 200px;
+    }
+    .adsArea,
+    .bannerArea,
+    .credibilityArea,
+    .callToActionArea,
+    .gettingStartedArea {
+        padding: 70px 10px;
+    }
+    
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 767px) {
+    .BannerArea {
+        padding: 130px 10px 50px 10px;
+    }
+    .BannerArea .mainVisualBlock02 img {
+        width: 80%;
+    }
+    header .headerAreaBlock .headerContent01 img {
+        width: 150px;
+    }
+    .headerAreaBlock {
+        width: 95%;
+    }
+    .mainVisualBlock01 h1 {
+        font-size: 27px;
+        line-height: 1.2;
+    }
+    .formZipCode input {
+        padding: 15px 20px;
+    }
+    .formZipCode button {
+        height: 48px;
+    }
+    .formZipCodeTtl {
+        font-size: 16px;
+        max-width: 195px;
+        margin-bottom: 10px; 
+    }
+    .disclaimerWithIcon .disclaimerText {
+        font-size: 14px;
+    }
+    .formZipCode > svg {
+        width: 55px;
+        right: 23%;
+    }
+    .mainVisualBlock01 p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .stepsBlockWrap,
+    .mainVisualBlock01,
+    .mainVisualBlock02 {
+        width: 100%;
+    }
+    .adsArea,
+    .credibilityArea,
+    .callToActionArea,
+    .gettingStartedArea {
+        padding: 50px 10px;
+    }
+    .gettingStartedTtl,
+    .adsAreaBlock01 h2 {
+        font-size: 27px;
+    }
+    .callToActionAreaBlockTtl {
+        font-size: 27px;
+    }
+    .callToActionAreaBlock {
+        padding: 50px 10px;
+    }
+    /* .mainVisualBlock01 {
+        order: 2;
+        margin-top: 30px;
+    }
+    .mainVisualBlock02 {
+        order: 1;
+    } */
+    .adsArea img {
+        padding: 0;
+        width: 100%;
+    }
+    .formZipCode {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+    .CompanyLogo {
+        width: 33.33%;
+        margin-bottom: 30px;
+    }
+    .credibilityArea p {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    footer {
+        padding: 50px 10px;
+    }
+    footer ul {        
+        width: 100%;
+        max-width: 250px;
+    }
+    footer .footerBlock01 img {
+        margin-bottom: 0;
+    }
+    footer ul li {
+        margin-right: 5px;
+        float: none;
+    }
+    footer ul li:last-child {
+        margin-right: 0;
+    }
+    .footerBlock01,
+    .footerBlock02,
+    .footerBlock03 {
+        width: 100%;
+        text-align: center !important;
+    }
+    .footerBlock01 img {
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    .btnQuote {
+        padding: 8px 20px;
+    }
+    .spOn {
+        display: block;
+    }
+    .pcOn {
+        display: none;
+    }
+  }
